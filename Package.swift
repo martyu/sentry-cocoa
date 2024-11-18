@@ -7,7 +7,8 @@ let package = Package(
     products: [
         .library(name: "Sentry", targets: ["Sentry"]),
         .library(name: "Sentry-Dynamic", targets: ["Sentry-Dynamic"]),
-        .library(name: "SentrySwiftUI", targets: ["Sentry", "SentrySwiftUI"])
+        .library(name: "SentrySwiftUI", targets: ["Sentry", "SentrySwiftUI"]),
+        .library(name: "SentrySwiftUI-Dynamic", type: .dynamic, targets: ["Sentry-Dynamic", "SentrySwiftUI"])
     ],
     targets: [
         .binaryTarget(
@@ -28,7 +29,7 @@ let package = Package(
                      .linkedFramework("Sentry")
                   ]
                 ),
-        .target( name: "SentryInternal",
+        .target ( name: "SentryInternal",
                  path: "Sources/SentrySwiftUI",
                  sources: [
                     "SentryInternal/"

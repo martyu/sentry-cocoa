@@ -2304,7 +2304,6 @@
 				6304360C1EC05CEF00C4D3FA /* Frameworks */,
 				6327C5D41EB8A783004E799B /* Products */,
 				7D826E3C2390840E00EED93D /* Utils */,
-				8459FCC62BD86C9E0038E9C9 /* Recovered References */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -3502,13 +3501,6 @@
 				62FC69352BEDFF18002D3EF2 /* SentryLogExtensions.swift */,
 			);
 			path = SentryTestUtils;
-			sourceTree = "<group>";
-		};
-		8459FCC62BD86C9E0038E9C9 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		847B1A002C618ACA002CB1F3 /* UserFeedback */ = {
